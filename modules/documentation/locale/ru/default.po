@@ -1,0 +1,360 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JohnCMS\n"
+"POT-Creation-Date: 2020-01-25 20:44+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: https://crowdin.com/project/johncms <translate@mobicms.net>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: _t;_p:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/add.php:42
+msgid "You did not enter an article title"
+msgstr "Вы не ввели название статьи"
+
+#: includes/add.php:43
+msgid "You did not enter an article description"
+msgstr "Вы не ввели описание статьи"
+
+#: includes/add.php:44
+msgid "You have not entered a version JohnCMS"
+msgstr "Вы не ввели версию JohnCMS"
+
+#: includes/add.php:45
+msgid "You have not entered article status"
+msgstr "Вы не ввели статус статьи"
+
+#: includes/add.php:46
+msgid "You entered an invalid status value"
+msgstr "Вы ввели неверное значение статуса"
+
+#: includes/add.php:47
+msgid "You have not entered the text of the article"
+msgstr "Вы не ввели текст статьи"
+
+#: includes/add.php:50 includes/add.php:114
+#, php-format
+msgid "You cannot add the message so often. Please, wait %d seconds."
+msgstr ""
+"Вы не можете добавлять сообщение так часто. Пожалуйста, подождите %d секунд."
+
+#: includes/add.php:77 includes/add.php:133 includes/del.php:33
+#: includes/del.php:55 includes/edit.php:27 templates/add_article.phtml:2
+#: templates/add_article.phtml:3 templates/add_section.phtml:2
+#: templates/add_section.phtml:3 templates/articles.phtml:2
+#: templates/articles.phtml:3 templates/delete_article.phtml:2
+#: templates/delete_article.phtml:3 templates/delete_section.phtml:2
+#: templates/delete_section.phtml:3 templates/edit_article.phtml:2
+#: templates/edit_article.phtml:3 templates/edit_section.phtml:2
+#: templates/edit_section.phtml:3 templates/index.phtml:2
+#: templates/index.phtml:3
+msgid "Documentation"
+msgstr "Документация"
+
+#: includes/add.php:78 index.php:89
+msgid "Add article"
+msgstr "Добавление документации"
+
+#: includes/add.php:82 includes/add.php:89 templates/add_article.phtml:11
+#: templates/articles.phtml:6
+msgid "Adding an article"
+msgstr "Добавление документации"
+
+#: includes/add.php:83
+msgid "Article added"
+msgstr "Статья добавлена"
+
+#: includes/add.php:106
+msgid "You did not enter a section binding"
+msgstr "Вы не указали привязку раздела"
+
+#: includes/add.php:107
+msgid "You entered an invalid binding value"
+msgstr "Вы ввели неверное значение привязки"
+
+#: includes/add.php:108
+msgid "You did not enter a section title"
+msgstr "Вы не ввели название раздела"
+
+#: includes/add.php:109
+msgid "You did not enter a section description"
+msgstr "Вы не ввели описание раздела"
+
+#: includes/add.php:110
+msgid "You did not enter a value to sort"
+msgstr "Вы не ввели значение для сортировки"
+
+#: includes/add.php:111
+msgid "You entered an invalid sort value"
+msgstr "Вы ввели неверное значение для сортировки"
+
+#: includes/add.php:134 includes/add.php:138 includes/add.php:145
+msgid "Adding a section"
+msgstr "Добавление раздела"
+
+#: includes/add.php:139
+msgid "Section added"
+msgstr "Раздел добавлен"
+
+#: includes/del.php:34 index.php:143
+msgid "Delete section"
+msgstr "Удаление раздела"
+
+#: includes/del.php:44 includes/del.php:61 templates/articles.phtml:22
+#: templates/delete_article.phtml:12 templates/delete_section.phtml:12
+#: templates/index.phtml:21
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/del.php:45
+msgid "Section deleted"
+msgstr "Раздел удалён"
+
+#: includes/del.php:56 index.php:156
+msgid "Delete article"
+msgstr "Удаление статьи"
+
+#: includes/del.php:62
+msgid "Article deleted"
+msgstr "Статья удалена"
+
+#: includes/edit.php:28
+msgid "Editing an article"
+msgstr "Добавление документации"
+
+#: includes/edit.php:51 includes/edit.php:114
+msgid "Wrong data"
+msgstr "Неправильные данные"
+
+#: includes/edit.php:52
+msgid "You have not entered articles title"
+msgstr "Вы не ввели статус статьи"
+
+#: includes/edit.php:53
+msgid "You have not entered article description"
+msgstr "Вы не ввели описание статьи"
+
+#: includes/edit.php:54 includes/edit.php:115
+msgid "You have not enter a section number"
+msgstr "Вы не ввели ID раздела"
+
+#: includes/edit.php:55
+msgid "You have not enter status"
+msgstr "Вы не ввели статус статьи"
+
+#: includes/edit.php:56
+msgid "You have not enter article author"
+msgstr "Вы не указали автора статьи"
+
+#: includes/edit.php:57
+msgid "You have not enter CMS version"
+msgstr "Вы не ввели версию JohnCMS"
+
+#: includes/edit.php:58
+msgid "You have not entered article text"
+msgstr "Вы не ввели текст статьи"
+
+#: includes/edit.php:86 includes/edit.php:94
+msgid "Article edit"
+msgstr "Редактирование статьи"
+
+#: includes/edit.php:87
+msgid "Article changed"
+msgstr "Статья изменена"
+
+#: includes/edit.php:116
+msgid "You have not entered section title"
+msgstr "Вы не ввели название раздела"
+
+#: includes/edit.php:117
+msgid "You have not entered section description"
+msgstr "Вы не ввели описание раздела"
+
+#: includes/edit.php:118
+msgid "You have not enter a value to sort"
+msgstr "Вы не ввели значение для сортировки"
+
+#: includes/edit.php:138 includes/edit.php:146
+msgid "Section edit"
+msgstr "Редактирование раздела"
+
+#: includes/edit.php:139
+msgid "Section changed"
+msgstr "Раздел изменен"
+
+#: index.php:79 index.php:88 index.php:101 index.php:120 index.php:142
+#: index.php:155 index.php:169 index.php:199
+msgid "Documentation sections"
+msgstr "Разделы документации"
+
+#: index.php:80
+msgid "Add section"
+msgstr "Добавление раздела"
+
+#: index.php:102 templates/edit_section.phtml:10
+msgid "Edit section"
+msgstr "Редактирование раздела"
+
+#: index.php:121 templates/edit_article.phtml:10
+msgid "Edit article"
+msgstr "Редактировать статью"
+
+#: index.php:170
+msgid "View documentation"
+msgstr "Просмотр документации"
+
+#: templates/add_article.phtml:14
+msgid "Enter an article name"
+msgstr "Введите имя статьи"
+
+#: templates/add_article.phtml:20
+msgid "Article name"
+msgstr "Название статьи"
+
+#: templates/add_article.phtml:24
+msgid "Enter article description"
+msgstr "Введите описание статьи"
+
+#: templates/add_article.phtml:30
+msgid "Article description"
+msgstr "Описание статьи"
+
+#: templates/add_article.phtml:34
+msgid "Enter CMS version"
+msgstr "Введите версию CMS"
+
+#: templates/add_article.phtml:40
+msgid "CMS version"
+msgstr "Версия CMS"
+
+#: templates/add_article.phtml:44
+msgid "Enter status"
+msgstr "Введите статус"
+
+#: templates/add_article.phtml:50 templates/edit_article.phtml:50
+#: templates/edit_article.phtml:58
+msgid "Status"
+msgstr "Статус"
+
+#: templates/add_article.phtml:54
+msgid "Enter article text"
+msgstr "Введите текст статьи"
+
+#: templates/add_article.phtml:60
+msgid "Article text"
+msgstr "Текст статьи"
+
+#: templates/add_article.phtml:65 templates/add_section.phtml:53
+msgid "Add"
+msgstr "Добавить"
+
+#: templates/add_section.phtml:11 templates/index.phtml:6
+msgid "Adding a Section"
+msgstr "Добавление раздела"
+
+#: templates/add_section.phtml:14
+msgid "Enter a section name"
+msgstr "Введите имя раздела"
+
+#: templates/add_section.phtml:20
+msgid "Section name"
+msgstr "Название раздела"
+
+#: templates/add_section.phtml:24
+msgid "Enter a section description"
+msgstr "Введите описание раздела"
+
+#: templates/add_section.phtml:30 templates/add_section.phtml:40
+msgid "Section description"
+msgstr "Описание раздела"
+
+#: templates/add_section.phtml:34
+msgid "Enter a section binding"
+msgstr "Введите привязку раздела"
+
+#: templates/add_section.phtml:44
+msgid "Enter a value to sort"
+msgstr "Введите значение для сортировки"
+
+#: templates/articles.phtml:15 templates/edit_article.phtml:62
+#: templates/edit_article.phtml:70
+msgid "Author"
+msgstr "Автор"
+
+#: templates/articles.phtml:21 templates/index.phtml:20
+msgid "Edit"
+msgstr "Изменить"
+
+#: templates/articles.phtml:31 templates/index.phtml:30
+msgid "Total"
+msgstr "Всего"
+
+#: templates/articles.phtml:33 templates/index.phtml:32
+msgid "No Records"
+msgstr "Записей нет"
+
+#: templates/delete_article.phtml:9 templates/delete_section.phtml:9
+msgid "Do you really want to delete?"
+msgstr "Вы действительно хотите удалить?"
+
+#: templates/delete_article.phtml:13 templates/delete_section.phtml:13
+msgid "Cancel"
+msgstr "Отмена"
+
+#: templates/edit_article.phtml:14 templates/edit_article.phtml:22
+#: templates/edit_section.phtml:26 templates/edit_section.phtml:34
+msgid "Title"
+msgstr "Заголовок"
+
+#: templates/edit_article.phtml:26 templates/edit_article.phtml:34
+#: templates/edit_section.phtml:38 templates/edit_section.phtml:46
+msgid "Description"
+msgstr "Описание"
+
+#: templates/edit_article.phtml:38 templates/edit_article.phtml:46
+#: templates/edit_section.phtml:14 templates/edit_section.phtml:22
+msgid "Section ID"
+msgstr "Идентификатор раздела"
+
+#: templates/edit_article.phtml:74 templates/edit_article.phtml:82
+msgid "CMS Version"
+msgstr "Версия CMS"
+
+#: templates/edit_article.phtml:87
+msgid "Text"
+msgstr "Текст"
+
+#: templates/edit_article.phtml:91 templates/edit_section.phtml:62
+msgid "Save"
+msgstr "Сохранить"
+
+#: templates/edit_article.phtml:92
+msgid "Back to articles"
+msgstr "Вернуться к статьям"
+
+#: templates/edit_section.phtml:50 templates/edit_section.phtml:58
+msgid "Sort value"
+msgstr "Значение для сортировки"
+
+#: templates/edit_section.phtml:63
+msgid "Back to sections"
+msgstr "Вернуться к разделам"
+
+#: templates/result.phtml:15
+msgid "Back"
+msgstr "Назад"
+
+#~ msgid "Section number"
+#~ msgstr "Название раздела"
+
+#~ msgid "Empty request"
+#~ msgstr "Пустой запрос"

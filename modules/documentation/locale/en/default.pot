@@ -1,0 +1,351 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: JohnCMS\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: https://crowdin.com/project/johncms <translate@mobicms.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: _t;_p:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/add.php:42
+msgid "You did not enter an article title"
+msgstr ""
+
+#: includes/add.php:43
+msgid "You did not enter an article description"
+msgstr ""
+
+#: includes/add.php:44
+msgid "You have not entered a version JohnCMS"
+msgstr ""
+
+#: includes/add.php:45
+msgid "You have not entered article status"
+msgstr ""
+
+#: includes/add.php:46
+msgid "You entered an invalid status value"
+msgstr ""
+
+#: includes/add.php:47
+msgid "You have not entered the text of the article"
+msgstr ""
+
+#: includes/add.php:50 includes/add.php:114
+#, php-format
+msgid "You cannot add the message so often. Please, wait %d seconds."
+msgstr ""
+
+#: includes/add.php:77 includes/add.php:133 includes/del.php:33
+#: includes/del.php:55 includes/edit.php:27 templates/add_article.phtml:2
+#: templates/add_article.phtml:3 templates/add_section.phtml:2
+#: templates/add_section.phtml:3 templates/articles.phtml:2
+#: templates/articles.phtml:3 templates/delete_article.phtml:2
+#: templates/delete_article.phtml:3 templates/delete_section.phtml:2
+#: templates/delete_section.phtml:3 templates/edit_article.phtml:2
+#: templates/edit_article.phtml:3 templates/edit_section.phtml:2
+#: templates/edit_section.phtml:3 templates/index.phtml:2
+#: templates/index.phtml:3
+msgid "Documentation"
+msgstr ""
+
+#: includes/add.php:78 index.php:89
+msgid "Add article"
+msgstr ""
+
+#: includes/add.php:82 includes/add.php:89 templates/add_article.phtml:11
+#: templates/articles.phtml:6
+msgid "Adding an article"
+msgstr ""
+
+#: includes/add.php:83
+msgid "Article added"
+msgstr ""
+
+#: includes/add.php:106
+msgid "You did not enter a section binding"
+msgstr ""
+
+#: includes/add.php:107
+msgid "You entered an invalid binding value"
+msgstr ""
+
+#: includes/add.php:108
+msgid "You did not enter a section title"
+msgstr ""
+
+#: includes/add.php:109
+msgid "You did not enter a section description"
+msgstr ""
+
+#: includes/add.php:110
+msgid "You did not enter a value to sort"
+msgstr ""
+
+#: includes/add.php:111
+msgid "You entered an invalid sort value"
+msgstr ""
+
+#: includes/add.php:134 includes/add.php:138 includes/add.php:145
+msgid "Adding a section"
+msgstr ""
+
+#: includes/add.php:139
+msgid "Section added"
+msgstr ""
+
+#: includes/del.php:34 index.php:143
+msgid "Delete section"
+msgstr ""
+
+#: includes/del.php:44 includes/del.php:61 templates/articles.phtml:22
+#: templates/delete_article.phtml:12 templates/delete_section.phtml:12
+#: templates/index.phtml:21
+msgid "Delete"
+msgstr ""
+
+#: includes/del.php:45
+msgid "Section deleted"
+msgstr ""
+
+#: includes/del.php:56 index.php:156
+msgid "Delete article"
+msgstr ""
+
+#: includes/del.php:62
+msgid "Article deleted"
+msgstr ""
+
+#: includes/edit.php:28
+msgid "Editing an article"
+msgstr ""
+
+#: includes/edit.php:51 includes/edit.php:114
+msgid "Wrong data"
+msgstr ""
+
+#: includes/edit.php:52
+msgid "You have not entered articles title"
+msgstr ""
+
+#: includes/edit.php:53
+msgid "You have not entered article description"
+msgstr ""
+
+#: includes/edit.php:54 includes/edit.php:115
+msgid "You have not enter a section number"
+msgstr ""
+
+#: includes/edit.php:55
+msgid "You have not enter status"
+msgstr ""
+
+#: includes/edit.php:56
+msgid "You have not enter article author"
+msgstr ""
+
+#: includes/edit.php:57
+msgid "You have not enter CMS version"
+msgstr ""
+
+#: includes/edit.php:58
+msgid "You have not entered article text"
+msgstr ""
+
+#: includes/edit.php:86 includes/edit.php:94
+msgid "Article edit"
+msgstr ""
+
+#: includes/edit.php:87
+msgid "Article changed"
+msgstr ""
+
+#: includes/edit.php:116
+msgid "You have not entered section title"
+msgstr ""
+
+#: includes/edit.php:117
+msgid "You have not entered section description"
+msgstr ""
+
+#: includes/edit.php:118
+msgid "You have not enter sort value"
+msgstr ""
+
+#: includes/edit.php:138 includes/edit.php:146
+msgid "Section edit"
+msgstr ""
+
+#: includes/edit.php:139
+msgid "Section changed"
+msgstr ""
+
+#: index.php:79 index.php:88 index.php:101 index.php:120 index.php:142
+#: index.php:155 index.php:169 index.php:199
+msgid "Documentation sections"
+msgstr ""
+
+#: index.php:80
+msgid "Add section"
+msgstr ""
+
+#: index.php:102 templates/edit_section.phtml:10
+msgid "Edit section"
+msgstr ""
+
+#: index.php:121 templates/edit_article.phtml:10
+msgid "Edit article"
+msgstr ""
+
+#: index.php:170
+msgid "View documentation"
+msgstr ""
+
+#: templates/add_article.phtml:14
+msgid "Enter an article name"
+msgstr ""
+
+#: templates/add_article.phtml:20
+msgid "Article name"
+msgstr ""
+
+#: templates/add_article.phtml:24
+msgid "Enter article description"
+msgstr ""
+
+#: templates/add_article.phtml:30
+msgid "Article description"
+msgstr ""
+
+#: templates/add_article.phtml:34
+msgid "Enter CMS version"
+msgstr ""
+
+#: templates/add_article.phtml:40
+msgid "CMS version"
+msgstr ""
+
+#: templates/add_article.phtml:44
+msgid "Enter status"
+msgstr ""
+
+#: templates/add_article.phtml:50 templates/edit_article.phtml:50
+#: templates/edit_article.phtml:58
+msgid "Status"
+msgstr ""
+
+#: templates/add_article.phtml:54
+msgid "Enter article text"
+msgstr ""
+
+#: templates/add_article.phtml:60
+msgid "Article text"
+msgstr ""
+
+#: templates/add_article.phtml:65 templates/add_section.phtml:53
+msgid "Add"
+msgstr ""
+
+#: templates/add_section.phtml:11 templates/index.phtml:6
+msgid "Adding a Section"
+msgstr ""
+
+#: templates/add_section.phtml:14
+msgid "Enter a section name"
+msgstr ""
+
+#: templates/add_section.phtml:20
+msgid "Section name"
+msgstr ""
+
+#: templates/add_section.phtml:24
+msgid "Enter a section description"
+msgstr ""
+
+#: templates/add_section.phtml:30 templates/add_section.phtml:40
+msgid "Section description"
+msgstr ""
+
+#: templates/add_section.phtml:34
+msgid "Enter a section binding"
+msgstr ""
+
+#: templates/add_section.phtml:44
+msgid "Enter a value to sort"
+msgstr ""
+
+#: templates/articles.phtml:15 templates/edit_article.phtml:62
+#: templates/edit_article.phtml:70
+msgid "Author"
+msgstr ""
+
+#: templates/articles.phtml:21 templates/index.phtml:20
+msgid "Edit"
+msgstr ""
+
+#: templates/articles.phtml:31 templates/index.phtml:30
+msgid "Total"
+msgstr ""
+
+#: templates/articles.phtml:33 templates/index.phtml:32
+msgid "No Records"
+msgstr ""
+
+#: templates/delete_article.phtml:9 templates/delete_section.phtml:9
+msgid "Do you really want to delete?"
+msgstr ""
+
+#: templates/delete_article.phtml:13 templates/delete_section.phtml:13
+msgid "Cancel"
+msgstr ""
+
+#: templates/edit_article.phtml:14 templates/edit_article.phtml:22
+#: templates/edit_section.phtml:26 templates/edit_section.phtml:34
+msgid "Title"
+msgstr ""
+
+#: templates/edit_article.phtml:26 templates/edit_article.phtml:34
+#: templates/edit_section.phtml:38 templates/edit_section.phtml:46
+msgid "Description"
+msgstr ""
+
+#: templates/edit_article.phtml:38 templates/edit_article.phtml:46
+#: templates/edit_section.phtml:14 templates/edit_section.phtml:22
+msgid "Section ID"
+msgstr ""
+
+#: templates/edit_article.phtml:74 templates/edit_article.phtml:82
+msgid "CMS Version"
+msgstr ""
+
+#: templates/edit_article.phtml:87
+msgid "Text"
+msgstr ""
+
+#: templates/edit_article.phtml:91 templates/edit_section.phtml:62
+msgid "Save"
+msgstr ""
+
+#: templates/edit_article.phtml:92
+msgid "Back to articles"
+msgstr ""
+
+#: templates/edit_section.phtml:50 templates/edit_section.phtml:58
+msgid "Sort value"
+msgstr ""
+
+#: templates/edit_section.phtml:63
+msgid "Back to sections"
+msgstr ""
+
+#: templates/result.phtml:15
+msgid "Back"
+msgstr ""

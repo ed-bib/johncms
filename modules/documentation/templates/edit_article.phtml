@@ -1,0 +1,98 @@
+<?php $this->layout('system::layout/default', [
+    'title'      => __('Documentation'),
+    'page_title' => __('Documentation'),
+]) ?>
+
+<div class="row">
+    <div class="m-sm-auto m-md-auto m-lg-0 col-sm-8 col-md-8 col-lg-7 col-xl-8">
+        <div class="card shadow border-0 border-radius-12">
+            <div class="card-body">
+                <h4 class="card-title"><?= __('Edit article') ?></h4>
+                <form action="?edit" method="post">
+                    <input type="hidden" name="id" value="<?= $id ?>">
+                    <div class="form-group">
+                        <label for="title"><?= __('Title') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="name"
+                               id="title"
+                               required
+                               value="<?= $name ?>"
+                               placeholder="<?= __('Title') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="description"><?= __('Description') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="description"
+                               id="description"
+                               required
+                               value="<?= $description ?>"
+                               placeholder="<?= __('Description') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="parent"><?= __('Section ID') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="parent_id"
+                               id="parent"
+                               required
+                               value="<?= $parent_id ?>"
+                               placeholder="<?= __('Section ID') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="status"><?= __('Status') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="status"
+                               id="status"
+                               required
+                               value="<?= $status ?>"
+                               placeholder="<?= __('Status') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="author"><?= __('Author') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="author"
+                               id="author"
+                               required
+                               value="<?= $author ?>"
+                               placeholder="<?= __('Author') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="cms_version"><?= __('CMS Version') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="cms_version"
+                               id="cms_version"
+                               required
+                               value="<?= $cms_version ?>"
+                               placeholder="<?= __('CMS Version') ?>"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="text"><?= __('Text') ?></label>
+                        <textarea id="text" class="form-control" name="text" rows="<?= $user->config->fieldHeight ?>"><?= $text ?></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" name="article_submit" class="btn btn-primary"><?= __('Save') ?></button>
+                        <a href="/documentation/?articles=<?= $parent_id ?>" class="btn btn-outline-primary ml-2"><?= __('Back to articles') ?></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

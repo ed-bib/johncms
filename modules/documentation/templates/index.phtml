@@ -1,0 +1,38 @@
+<?php $this->layout('system::layout/default', [
+    'title'      => __('Documentation'),
+    'page_title' => __('Documentation'),
+]) ?>
+<?php if ($user->rights >= Doc\Request::ROLE): ?>
+    <p><a href="?add-section" class="btn btn-primary mr-2"><?= __('Adding a Section') ?></a></p>
+<?php endif ?>
+<!-- Вывод списка разделов -->
+<?php foreach ($list() as $section): ?>
+    <div class="card mb-3 shadow border-0">
+        <div class="card-body">
+            <h3 class="card-title">
+                <a href="?articles=<?= $section['parent_id'] ?>"><?= $this->e($section['name']) ?></a>
+            </h3>
+            <p class="card-text"><?= $section['description'] ?></p>
+            <?php if (! empty($section['name']) && $user->rights >= Doc\Request::ROLE): ?>
+                <div class="border-top pt-3 d-flex justify-content-between">
+                    <div>
+                        <!-- Кнопки удаления и изменения разделов -->
+                        <a href="?edit-section=<?= $section['id'] ?>" class="btn btn-primary btn-sm"><?= __('Edit') ?></a>
+                        <a href="?delete-section=<?= $section['id'] ?>" class="btn btn-danger btn-sm"><?= __('Delete') ?></a>
+                    </div>
+                </div>
+            <?php endif ?>
+        </div>
+    </div>
+<?php endforeach ?>
+<div class="pt-2 pb-2">
+    <?php if ($total): ?>
+        <?= __('Total') ?>:&#160;<?= $total ?>
+    <?php else: ?>
+        <?= __('No Records') ?>
+    <?php endif; ?>
+</div>
+<!-- Переключение страниц -->
+<?php if ($total > $user->config->kmess): ?>
+    <div><?= $pagination ?></div>
+<?php endif ?>

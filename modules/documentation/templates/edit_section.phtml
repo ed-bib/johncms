@@ -1,0 +1,69 @@
+<?php $this->layout('system::layout/default', [
+    'title'      => __('Documentation'),
+    'page_title' => __('Documentation'),
+]) ?>
+
+<div class="row">
+    <div class="m-sm-auto m-md-auto m-lg-0 col-sm-8 col-md-8 col-lg-7 col-xl-8">
+        <div class="card shadow border-0 border-radius-12">
+            <div class="card-body">
+                <h4 class="card-title"><?= __('Edit section') ?></h4>
+                <form action="?edit" method="post">
+                    <input type="hidden" name="id" value="<?= $id ?>">
+                    <div class="form-group">
+                        <label for="parent"><?= __('Section ID') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="parent_id"
+                               id="parent"
+                               required
+                               value="<?= $parent_id ?>"
+                               placeholder="<?= __('Section ID') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="title"><?= __('Title') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="name"
+                               id="title"
+                               required
+                               value="<?= $name ?>"
+                               placeholder="<?= __('Title') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="description"><?= __('Description') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="description"
+                               id="description"
+                               required
+                               value="<?= $description ?>"
+                               placeholder="<?= __('Description') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="sort"><?= __('Sort value') ?></label>
+                        <input type="text"
+                               class="form-control"
+                               maxlength="255"
+                               name="sort"
+                               id="sort"
+                               required
+                               value="<?= $sort ?>"
+                               placeholder="<?= __('Sort value') ?>"
+                        >
+                    </div>
+                    <div>
+                        <button type="submit" name="section_submit" class="btn btn-primary"><?= __('Save') ?></button>
+                        <a href="/documentation/" class="btn btn-outline-primary ml-2"><?= __('Back to sections') ?></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

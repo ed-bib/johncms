@@ -1,0 +1,59 @@
+<?php $this->layout('system::layout/default', [
+    'title'      => __('Documentation'),
+    'page_title' => __('Documentation'),
+]) ?>
+<div class="row">
+    <div class="m-sm-auto m-md-auto m-lg-0 col-sm-8 col-md-8 col-lg-7 col-xl-10">
+        <div class="card shadow border-0 border-radius-12">
+
+            <form action="?add" method="post">
+                <div class="card-body">
+                    <h4 class="card-title"><?= __('Adding a Section') ?></h4>
+
+                    <div class="form-group">
+                        <label for="section_name"><?= __('Enter a section name') ?></label>
+                        <input type="text"
+                               class="form-control <?= (isset($error['section_name']) ? 'is-invalid' : '') ?>"
+                               name="section_name"
+                               id="section_name"
+                               required
+                               placeholder="<?= __('Section name') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="section_description"><?= __('Enter a section description') ?></label>
+                        <input type="text"
+                               class="form-control <?= (isset($error['section_description']) ? 'is-invalid' : '') ?>"
+                               name="section_description"
+                               id="section_description"
+                               required
+                               placeholder="<?= __('Section description') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="parent_id"><?= __('Enter a section binding') ?></label>
+                        <input type="text"
+                               class="form-control <?= (isset($error['parent_id']) ? 'is-invalid' : '') ?>"
+                               name="parent_id"
+                               id="parent_id"
+                               required
+                               placeholder="<?= __('Section description') ?>"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="sort"><?= __('Enter a value to sort') ?></label>
+                        <input type="text"
+                               class="form-control <?= (isset($error['sort']) ? 'is-invalid' : '') ?>"
+                               name="sort"
+                               id="sort"
+                               required
+                               placeholder="100"
+                        >
+                    </div>
+                    <input type="submit" name="section_submit" class="btn btn-primary" value="<?= __('Add') ?>">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

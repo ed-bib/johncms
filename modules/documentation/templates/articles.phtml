@@ -1,0 +1,39 @@
+<?php $this->layout('system::layout/default', [
+    'title'      => __('Documentation'),
+    'page_title' => __('Documentation'),
+]) ?>
+<?php if ($user->rights >= Doc\Request::ROLE): ?>
+    <p><a href="?add-article=<?= $parent_id ?>" class="btn btn-primary mr-2"><?= __('Adding an article') ?></a></p>
+<?php endif ?>
+<!-- Вывод списка статей -->
+<?php foreach ($list() as $article): ?>
+    <div class="card mb-3 shadow border-0">
+        <div class="card-body">
+            <h3 class="card-title"><?= $this->e($article['name']) ?></h3>
+            <p class="card-text"><?= $article['text'] ?></p>
+            <p class="card-text">
+                <small class="text-muted"><?= __('Author') ?>: <?= $article['author'] ?> (<?= $tools->displayDate($article['date_of_creation']) ?>)</small>
+            </p>
+            <?php if (! empty($article['name']) && $user->rights >= 6): ?>
+                <div class="border-top pt-3 d-flex justify-content-between">
+                    <div>
+                        <!-- Кнопки удаления и изменения статьи -->
+                        <a href="?edit-article=<?= $article['id'] ?>" class="btn btn-primary btn-sm"><?= __('Edit') ?></a>
+                        <a href="?delete-article=<?= $article['id'] ?>" class="btn btn-danger btn-sm"><?= __('Delete') ?></a>
+                    </div>
+                </div>
+            <?php endif ?>
+        </div>
+    </div>
+<?php endforeach ?>
+<div class="pt-2 pb-2">
+    <?php if ($total): ?>
+        <?= __('Total') ?>:&#160;<?= $total ?>
+    <?php else: ?>
+        <?= __('No Records') ?>
+    <?php endif; ?>
+</div>
+<!-- Переключение страниц -->
+<?php if ($total > $user->config->kmess): ?>
+    <div><?= $pagination ?></div>
+<?php endif ?>
